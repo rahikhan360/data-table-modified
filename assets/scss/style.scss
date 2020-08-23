@@ -2,14 +2,13 @@
 
 //! Container
 .container {
-    width: 75%;
+    width: 75vw;
     margin: 0 auto;
-    height: 90vh;
 }
 
 //// Header Form
 .form {
-    height: 18%;
+    height: 15vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -70,7 +69,9 @@
 
 //// Table
 table {
-    height: 82%;
+    height: 75vh;
+    width: 100%;
+    table-layout: fixed;
     display: block;
 
     thead {
@@ -78,7 +79,7 @@ table {
     }
 
     tbody {
-        height: 90%;
+        height: 85%;
         display: block;
         overflow-y: scroll;
         scrollbar-width: none;
@@ -97,7 +98,7 @@ table {
     th,
     td {
         width: 10.6rem;
-        padding: calc(1vh + 1vw) 0;
+        padding: calc(1vh + 1vw) calc(1vh + 1vw);
         font-size: calc(0.9vh + 0.9vw);
     }
 
@@ -110,11 +111,11 @@ table {
     }
 }
 
-//! Footer
+//// Footer
 .footer {
+    height: 10vh;
     font-size: calc(0.8vh + 0.8vw);
     font-weight: 600;
-    height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;

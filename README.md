@@ -1,3 +1,3 @@
 # Data Table Modified
 
-Check it out at => https://data-table-modified.netlify.app/
+Check out the [Live Demo](https://data-table-modified.netlify.app/)
